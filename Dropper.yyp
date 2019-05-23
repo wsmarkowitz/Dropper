@@ -647,6 +647,25 @@
             }
         },
         {
+            "Key": "cefc47e9-6813-4739-8ce0-445afbf85f3d",
+            "Value": {
+                "id": "fdb7764d-79d1-488d-a65a-608d5004babd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/lightning_ball\/lightning_ball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cf1006aa-58f6-409a-84e7-d854fed79d85",
             "Value": {
                 "id": "c80a0f8c-a375-4102-9008-d66f425ee453",
