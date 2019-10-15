@@ -5,7 +5,7 @@ namespace DefaultNamespace
 {
     public static class Utility
     {
-        public static List<Rect> getLaneRects()
+        public static List<Rect> GetLaneRects()
         {
             List<Rect> rects = new List<Rect>();
             for (int i = 0; i < Config.NUMBER_OF_LANES; i++)

@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Config.cs" />
+    <Compile Include="Assets\LaneHighlighter.cs" />
     <Compile Include="Assets\PlayerAction.cs" />
     <Compile Include="Assets\PlayerActionSelector.cs" />
     <Compile Include="Assets\PlayerActionType.cs" />

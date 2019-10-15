@@ -14,7 +14,7 @@ public class PlayerActionSelector : MonoBehaviour
     private readonly KeyCode[] _ballIndexKeyCodes = new[]
         {KeyCode.Alpha1, KeyCode.Alpha2, KeyCode.Alpha3, KeyCode.Alpha4, KeyCode.Alpha5, KeyCode.Alpha6};
 
-    [SerializeField] private List<PlayerAction> playerActions = new List<PlayerAction>();
+    [SerializeField] public List<PlayerAction> playerActions = new List<PlayerAction>();
 
     // Update is called once per frame
     void Update()
@@ -41,7 +41,7 @@ public class PlayerActionSelector : MonoBehaviour
 
     void LaneActionFromMouse()
     {
-        List<Rect> rects = Utility.getLaneRects();
+        List<Rect> rects = Utility.GetLaneRects();
         for (int i = 0; i < rects.Count; i++)
         {
             if (Input.GetMouseButton(0) && rects[i].Contains(Input.mousePosition))
@@ -57,7 +57,7 @@ public class PlayerActionSelector : MonoBehaviour
 
     void LaneActionFromTouch()
     {
-        List<Rect> rects = Utility.getLaneRects();
+        List<Rect> rects = Utility.GetLaneRects();
         foreach (var touch in Input.touches)
         {
             for (int i = 0; i < rects.Count; i++)
