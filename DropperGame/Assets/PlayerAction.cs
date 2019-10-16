@@ -1,8 +1,5 @@
-namespace DefaultNamespace
+public struct PlayerAction
 {
-    public struct PlayerAction
-    {
-        public PlayerActionType PlayerActionType;
-        public int Index;
-    }
+    public PlayerActionType PlayerActionType;
+    public int Index;
 }
