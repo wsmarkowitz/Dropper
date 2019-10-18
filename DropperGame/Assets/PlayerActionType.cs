@@ -1,8 +1,5 @@
-namespace DefaultNamespace
+public enum PlayerActionType
 {
-    public enum PlayerActionType
-    {
-        LANE_SELECTION,
-        BALL_SELECTION
-    }
+    LANE_SELECTION,
+    BALL_SELECTION
 }

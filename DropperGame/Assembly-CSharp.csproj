@@ -57,11 +57,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ActionHandler.cs" />
+    <Compile Include="Assets\BallSelectionButtonScript.cs" />
     <Compile Include="Assets\Config.cs" />
+    <Compile Include="Assets\LaneHandler.cs" />
+    <Compile Include="Assets\LaneInitializer.cs" />
     <Compile Include="Assets\PlayerAction.cs" />
-    <Compile Include="Assets\PlayerActionSelector.cs" />
     <Compile Include="Assets\PlayerActionType.cs" />
-    <Compile Include="Assets\Utility.cs" />
+    <Compile Include="Assets\PlayerInformation.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/wmarkowitz/Dropper/Dropper/DropperGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
