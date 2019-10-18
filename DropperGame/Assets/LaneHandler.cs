@@ -5,12 +5,6 @@ public class LaneHandler : MonoBehaviour
 {
     private int _laneIndex = 0;
     [SerializeField] private PlayerInformation playerInformation;
-    private List<PlayerAction> _playerActions;
-
-    private void Start()
-    {
-        _playerActions = playerInformation.playerActions;
-    }
 
     public void SetLane(int newLaneIndex)
     {
@@ -24,7 +18,7 @@ public class LaneHandler : MonoBehaviour
             Color tmp = GetComponent<SpriteRenderer>().color;
             tmp.a = 0.3f;
             GetComponent<SpriteRenderer>().color = tmp;
-            _playerActions.Add(new PlayerAction
+            playerInformation.playerActions.Add(new PlayerAction
             {
                 PlayerActionType = PlayerActionType.LANE_SELECTION, Index = _laneIndex
             });
